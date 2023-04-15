@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: black;
+  color: white;
+}
+.container{
+  margin: 10vh auto;
+  width: 70%;
+}
+.heading{
+  font-size: 2.3rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.input{
+  border: 2px solid white;
+    font-size: 20px;
+    height: 32px;
+    outline: none;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: groove;
+    width: 100%;
+    color: white;
+    margin-bottom: 10px;
+    padding: 5px 0;
+    text-align: left;
+    background-color: black;;
+}
+.input::placeholder{
+  color: white;
+}
+button{
+  font-size: 26px;
+  padding: 10px 15px;
+  margin-top: 10px;
+
+}
